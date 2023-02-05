@@ -17,7 +17,7 @@
     "url": "https://github.com/jonataswalker/ol-contextmenu/issues"
   },
   "files": [
-    "dist/"
+    "dist/*"
   ],
   "scripts": {
     "dev": "rollup -w -c",
