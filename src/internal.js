@@ -202,6 +202,7 @@ export class Internal {
       type: EVENT_TYPE.BEFOREOPEN,
       pixel: this.pixelClicked,
       coordinate: this.coordinateClicked,
+      originalEvt: evt
     });
 
     if (this.Base.disabled) return;
