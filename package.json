@@ -5,6 +5,9 @@
   "main": "dist/ol-contextmenu.js",
   "author": "Jonatas Walker",
   "homepage": "https://github.com/jonataswalker/ol-contextmenu",
+  "main": "dist/ol-contextmenu.js",
+  "module": "dist/ol-contextmenu.js",
+  "style": "dist/ol-contextmenu.css",
   "license": "MIT",
   "repository": {
     "type": "git",
