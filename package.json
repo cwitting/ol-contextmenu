@@ -5,7 +5,6 @@
   "main": "dist/ol-contextmenu.js",
   "author": "Jonatas Walker",
   "homepage": "https://github.com/jonataswalker/ol-contextmenu",
-  "main": "dist/ol-contextmenu.js",
   "module": "dist/ol-contextmenu.js",
   "style": "dist/ol-contextmenu.css",
   "license": "MIT",
@@ -22,6 +21,7 @@
   "scripts": {
     "dev": "rollup -w -c",
     "build": "rollup -c",
+    "prepare": "rollup -c",
     "lint": "eslint --cache --cache-location .eslintcache/ --ext .js .",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run build && npm run test:unit",
